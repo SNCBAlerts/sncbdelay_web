@@ -1,0 +1,23 @@
+{
+  "name": "drupol/sncbdelay_web",
+  "type": "symfony-bundle",
+  "description": "TODO",
+  "authors": [
+    {
+      "name": "Pol Dellaiera",
+      "email": "pol.dellaiera@protonmail.com"
+    }
+  ],
+  "require": {
+    "symfony/framework-bundle": "~2.7|~3.0|^4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "drupol\\sncbdelay_web\\": ""
+    }
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^2.8",
+    "phpspec/phpspec": "^4.2"
+  }
+}
